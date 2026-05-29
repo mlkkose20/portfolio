@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portföy — Yazılım Geliştirici</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="theme-color" content="#b8436e"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="Melike.dev"/>
+  <link rel="apple-touch-icon" href="icon-192.png"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">dev.portfolio</div>
+  <ul class="nav-links">
+    <li><a href="#about">Hakkımda</a></li>
+    <li><a href="#skills">Yetenekler</a></li>
+    <li><a href="#projects">Projeler</a></li>
+    <li><a href="#experience">Deneyim</a></li>
+    <li><a href="#contact">İletişim</a></li>
+  </ul>
+  <button class="theme-btn" id="themeBtn" aria-label="Tema değiştir">🌙</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="hero-left">
+    <span class="hero-label">✦ Yazılım Geliştirici</span>
+    <h1>Kod ile <em>hayalleri</em> gerçeğe dönüştürüyorum.</h1>
+    <p class="hero-desc">Temiz kod, zarif arayüzler ve kullanıcı deneyimine derin saygı ile dijital ürünler inşa ediyorum. Her satır kod, bir düşüncenin çiçeği.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">Projelerimi Gör →</a>
+      <a href="#contact" class="btn-secondary">Birlikte Çalışalım</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="avatar-frame">👩‍💻</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="blob"></div>
+  <div class="about-inner">
+    <div class="about-text reveal">
+      <p class="section-label">Hakkımda</p>
+      <h2 class="section-title">Merhaba, ben <em>Yazılımcıyım.</em></h2>
+      <p>Yazılım geliştirmeye olan tutkum, güzel ve kullanışlı şeyler üretme arzusundan doğuyor. Hem estetik hem de teknik açıdan mükemmel ürünler yaratmak için çalışıyorum.</p>
+      <p>Frontend'den backend'e, mobil uygulamalardan API'lere — geniş bir yelpazede çözümler üretiyorum. Kod yazarken temizlik, okunabilirlik ve sürdürülebilirlik benim için en önemli prensipler.</p>
+    </div>
+    <div class="about-cards reveal">
+      <div class="about-card">
+        <div class="icon">🌸</div>
+        <h4>Yaratıcı Düşünce</h4>
+        <p>Her problemi özgün ve yaratıcı bir bakış açısıyla ele alıyorum.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">⚡</div>
+        <h4>Hızlı Öğrenme</h4>
+        <p>Yeni teknolojilere hızla adapte olur, sürekli gelişirim.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">🤝</div>
+        <h4>Takım Ruhu</h4>
+        <p>Ekip çalışmasına inanır, iletişimi güçlü tutarım.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">🔍</div>
+        <h4>Detay Odaklı</h4>
+        <p>Her detayı özenle işler, kaliteden ödün vermem.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="blob"></div>
+  <div class="skills-inner">
+    <div class="reveal">
+      <p class="section-label">Yetenekler</p>
+      <h2 class="section-title">Araç Çantam</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <div class="skill-name">HTML & CSS</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">✨</div>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">⚛️</div>
+        <div class="skill-name">React</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-name">SQL / DB</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🔧</div>
+        <div class="skill-name">Git & GitHub</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">Figma</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">☁️</div>
+        <div class="skill-name">Node.js</div>
+        <div class="skill-level">
+          <div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot filled"></div><div class="skill-dot"></div><div class="skill-dot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="blob"></div>
+  <div class="projects-inner">
+    <div class="reveal">
+      <p class="section-label">Projeler</p>
+      <h2 class="section-title">Öne Çıkan <em>Çalışmalarım</em></h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-emoji">🍰</div>
+        <h3>Yemek Blogu Sitesi</h3>
+        <p class="project-desc">Tariflerin paylaşılabildiği modern yemek blogu sitesi. Admin paneli, tarif kartları ve responsive tasarım içeriyor.</p>
+        <div class="project-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
+          <span class="tag pink">MongoDB</span>
+          <span class="tag">EJS</span>
+        </div>
+        <a href="http://localhost:3000" target="_blank" class="project-link">🖥️ Projeyi İncele →</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-emoji">🛒</div>
+        <h3>E Kod Analiz Uygulaması</h3>
+        <p class="project-desc">Market ürünlerini tarayıp içeriğindeki E kodlarını analiz eden mobil uygulama. OCR teknolojisi ile barkod okuma destekliyor.</p>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag pink">OpenFoodFacts API</span>
+          <span class="tag">OCR</span>
+        </div>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="https://canva.link/7uto0ygen3415se" target="_blank" class="project-link">Proje Sunumu →</a>
+          <a href="ekod_sunum.pdf" target="_blank" class="project-link">📄 TÜBİTAK Raporu →</a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-emoji">🏪</div>
+        <h3>Akıllı Market Raf Yönetim Sistemi</h3>
+        <p class="project-desc">Stok takibi, son kullanma tarihi uyarıları ve birlikte satılan ürün analiziyle raf optimizasyonu yapan web tabanlı yönetim sistemi.</p>
+        <div class="project-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
+          <span class="tag pink">MySQL</span>
+          <span class="tag">Bootstrap</span>
+        </div>
+        <a href="market_raf_rapor.pdf" target="_blank" class="project-link">📄 Raporu Görüntüle →</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-emoji">🏢</div>
+        <h3>BranchSync — Şube Stok Yönetimi</h3>
+        <p class="project-desc">Merkezi denetimli şube stok ve envanter yönetim sistemi. ACID kuralları, trigger'lar ve ilişkisel sorgularla güçlendirilmiş veritabanı projesi.</p>
+        <div class="project-tags">
+          <span class="tag">PostgreSQL</span>
+          <span class="tag pink">SQL</span>
+          <span class="tag">Trigger</span>
+          <span class="tag">VTYS</span>
+        </div>
+        <a href="branchsync_rapor.pdf" target="_blank" class="project-link">📄 Raporu Görüntüle →</a>
+      </div>
+      <div class="project-card reveal">
+        <img src="asansor.png" alt="Asansör Projesi" style="width:100%;height:180px;object-fit:cover;border-radius:14px;margin-bottom:1rem;"/>
+        <h3>🛗 Arduino 3 Katlı Asansör</h3>
+        <p class="project-desc">Arduino Uno ile step motor kontrolü kullanılarak gerçek bir asansör sisteminin simüle edildiği donanım projesi. 7 segment ekran kat göstergesi, buton kontrolü ve otomatik yön belirleme içeriyor.</p>
+        <div class="project-tags">
+          <span class="tag">Arduino</span>
+          <span class="tag pink">Step Motor</span>
+          <span class="tag">C++</span>
+          <span class="tag">Donanım</span>
+        </div>
+        <a href="asansor_rapor.pdf" target="_blank" class="project-link">📄 Raporu Görüntüle →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience" id="experience">
+  <div class="blob"></div>
+  <div class="experience-inner">
+    <div class="reveal">
+      <p class="section-label">Deneyim</p>
+      <h2 class="section-title">Yolculuğum</h2>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <p class="tl-date">2024 — Devam Ediyor</p>
+        <h3 class="tl-role">Junior Frontend Developer</h3>
+        <p class="tl-company">Tech Startup — İstanbul (Uzaktan)</p>
+        <p class="tl-desc">React ve TypeScript ile ürün arayüzleri geliştiriyorum. Tasarım ekibiyle yakın çalışarak Figma mockuplarını gerçeğe dönüştürüyorum. Performans optimizasyonu ve erişilebilirlik standartlarına önem gösteriyorum.</p>
+        <div class="tl-tags">
+          <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag pink">Tailwind</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <p class="tl-date">2023 — 2024</p>
+        <h3 class="tl-role">Web Geliştirici Stajyer</h3>
+        <p class="tl-company">Dijital Ajans — Ankara</p>
+        <p class="tl-desc">Müşteri projelerinde HTML, CSS ve JavaScript kullanarak responsive web siteleri geliştirdim. Versiyon kontrolü ve agile metodoloji deneyimi edindim.</p>
+        <div class="tl-tags">
+          <span class="tag">HTML/CSS</span><span class="tag pink">JavaScript</span><span class="tag">Git</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <p class="tl-date">2020 — 2024</p>
+        <h3 class="tl-role">Bilgisayar Mühendisliği</h3>
+        <p class="tl-company">Üniversite — Türkiye</p>
+        <p class="tl-desc">Yazılım geliştirme, algoritma ve veri yapıları, web teknolojileri ve veritabanı yönetimi üzerine kapsamlı eğitim aldım.</p>
+        <div class="tl-tags">
+          <span class="tag">Python</span><span class="tag">Java</span><span class="tag pink">SQL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="contact-inner">
+    <div class="contact-info reveal">
+      <p class="section-label">İletişim</p>
+      <h2 class="section-title">Birlikte <em>Üretelim</em></h2>
+      <p>Yeni bir proje mi var? Birlikte çalışmak mı istiyorsun? Ya da sadece merhaba demek mi? Her türlü mesaj için buradayım. 🌸</p>
+      <a href="mailto:mlkkose20@gmail.com" class="contact-item">
+        <span class="contact-item-icon">📧</span>
+        <span class="contact-item-text">
+          <span class="label">E-posta</span>
+          <span class="value">mlkkose20@gmail.com</span>
+        </span>
+      </a>
+      <a href="https://tr.linkedin.com/" target="_blank" class="contact-item">
+        <span class="contact-item-icon">💼</span>
+        <span class="contact-item-text">
+          <span class="label">LinkedIn</span>
+          <span class="value">linkedin.com</span>
+        </span>
+      </a>
+      <a href="https://github.com/mlkkose20" target="_blank" class="contact-item">
+        <span class="contact-item-icon">🐙</span>
+        <span class="contact-item-text">
+          <span class="label">GitHub</span>
+          <span class="value">github.com/mlkkose20</span>
+        </span>
+      </a>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <input type="text" id="msgName" class="form-input" placeholder="Adın" required/>
+        <input type="email" id="msgEmail" class="form-input" placeholder="E-posta adresin" required/>
+      </div>
+      <input type="text" id="msgSubject" class="form-input" placeholder="Konu" required/>
+      <textarea id="msgBody" class="form-input" rows="5" placeholder="Mesajın..." required></textarea>
+      <button type="submit" class="form-submit">Mesaj Gönder ✉️</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">dev.portfolio ✦</div>
+  <div class="socials">
+    <a href="https://github.com/mlkkose20" target="_blank" class="social-link" title="GitHub">🐙</a>
+    <a href="https://tr.linkedin.com/" target="_blank" class="social-link" title="LinkedIn">💼</a>
+    <a href="https://x.com/mlkkose20" target="_blank" class="social-link" title="X">🐦</a>
+    <a href="https://www.instagram.com/melike_kosee_/" target="_blank" class="social-link" title="Instagram">📸</a>
+  </div>
+  <div class="footer-right">© 2025 — Sevgiyle yapıldı 🌸</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
